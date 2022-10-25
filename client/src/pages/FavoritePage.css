@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+  font-family: 'Roboto', sans-serif !important;
+  background: rgb(255, 255, 255);
+}
+
+a{
+  color: #000000;
+  text-decoration: none !important;
+  border: none !important;
+  }
+
+.nav_LK {
+}
+
+.all__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar__info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 100px;
+  width: 1200px;
+}
+
+.myTripsLK {
+  background: rgb(255, 255, 255);
+  flex-direction: column;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ava {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  top: -85px;
+}
+
+.avaPic {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.titileUserName {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  top: 354px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.insideNav {
+  flex-direction: column;
+  padding-left: 30px;
+  top: 10px;
+  position: relative;
+  display: flex;
+  background: rgba(255, 255, 255, 0);
+  width: 100%;
+}
+
+.tripsCard {
+  min-height: 300px;
+  display: flex;
+  width: 865px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.singleCard {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.oneFavCard {
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  transition: 0.2s;
+}
+
+.oneFavCard:hover {
+  transition: 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.favCards {
+  box-shadow: none !important;
+  padding-right: 37px;
+}

@@ -1,0 +1,55 @@
+.smallImg1 {
+  width: 270px !important;
+  height: 270px !important;
+  position: absolute;
+}
+.smallImg2 {
+  width: 270px !important;
+  height: 270px !important;
+  bottom: 0;
+  position: absolute;
+}
+.smallImg3 {
+  width: 270px !important;
+  height: 270px !important;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.smallImg4 {
+  width: 270px !important;
+  height: 270px !important;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.bigImg {
+  height: 550px !important;
+  width: 560px !important;
+}
+
+.fourPic {
+  margin-left: 8px;
+}
+.box__photo {
+  display: flex;
+  position: relative;
+  width: 1116px;
+}
+
+.box__comment {
+  max-width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+}
+.single__comment {
+  align-items: center;
+  justify-content: center;
+  margin: 10px 10px 10px 0px;
+  border-radius: 15px;
+  padding: 8px;
+  display: flex;
+  border: inherit;
+  max-width: fit-content;
+  box-shadow: rgba(0, 0, 0, 0.192) 0px 2px 8px;
+}

@@ -1,0 +1,26 @@
+.result__page {
+  margin-top: 20px;
+  display: flex;
+  padding-left: 5%;
+  padding-right: 7%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.cards {
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.wrapper_results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vh;
+}
+/* .carousel-root {
+  width: 100% !important;
+  height: 100px;
+} */

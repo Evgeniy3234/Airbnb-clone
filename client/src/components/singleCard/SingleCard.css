@@ -1,0 +1,31 @@
+.container__rate {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-wrapper {
+  border-radius: 15px;
+}
+
+.like:hover {
+  transition: 0.2s;
+  color: rgb(206, 71, 71);
+}
+
+.card__content {
+  cursor: pointer;
+}
+
+.caruselMain{
+  display: flex;
+  width: 305px;
+  height: 290px;
+}
+
+.eben{
+  display:block !important;
+  height: 100% !important;
+  width: 100% !important;
+}

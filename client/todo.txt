@@ -1,0 +1,13 @@
+Установка нужного
+- npm i react-router-dom
+- npm i axios
+- npm i redux
+- npm i react-redux
+- npm i @redux-devtools/extension
+
+
+
+MUI
+npm install @mui/material @emotion/react @emotion/styled
+Ant Design
+npm install antd

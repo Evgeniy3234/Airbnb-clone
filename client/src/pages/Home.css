@@ -1,0 +1,5 @@
+.cards__box {
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}

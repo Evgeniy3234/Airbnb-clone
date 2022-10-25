@@ -1,0 +1,8 @@
+.calc {
+  position: sticky;
+  top: 145px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}

@@ -1,0 +1,62 @@
+.mainLoader {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin-left: 10%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.dot1 {
+  width: 24px;
+  height: 24px;
+  background: #32aacc;
+  border-radius: 100%;
+  display: inline-block;
+  animation: slide 0.5s 0.1s infinite;
+}
+.dot2 {
+  width: 24px;
+  height: 24px;
+  background: #64aacc;
+  border-radius: 100%;
+  display: inline-block;
+  animation-delay: 2s;
+  animation: slide 0.5s 0.2s infinite;
+}
+.dot3 {
+  width: 24px;
+  height: 24px;
+  background: #96aacc;
+  border-radius: 100%;
+  display: inline-block;
+  animation: slide 0.5s 0.3s infinite;
+}
+.dot4 {
+  width: 24px;
+  height: 24px;
+  background: #c8aacc;
+  border-radius: 100%;
+  display: inline-block;
+  animation: slide 0.5s 0.4s infinite;
+}
+.dot5 {
+  width: 24px;
+  height: 24px;
+  background: #faaacc;
+  border-radius: 100%;
+  display: inline-block;
+  animation: slide 0.5s 0.5s infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

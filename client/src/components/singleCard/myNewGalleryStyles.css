@@ -1,0 +1,25 @@
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+    margin: 0 5px;
+    display: inline-block;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    content: '';
+}
+
+.carousel .control-arrow {
+    outline: 0;
+    border: 0;
+    background: inherit !important; 
+    top: 50%;
+    margin-top: -13px;
+    opacity: 0.7 !important;
+}
+
+.carousel-root{
+   display: block;
+
+}
+
+.thumbs-wrapper{
+display: none;
+}

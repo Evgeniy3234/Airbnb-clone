@@ -1,0 +1,9 @@
+.resultMap {
+  border-radius: 5px;
+  width: 100%;
+  height: 800px;
+  position: sticky;
+  right: 0;
+  top: 110px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}

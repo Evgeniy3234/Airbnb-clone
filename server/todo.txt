@@ -1,0 +1,62 @@
+1. Инициализация проекта 
+  - npm init -y
+  - npm i express morgan
+  - npx create-gitignore node
+  - npx eslint --init
+  - npm i -D nodemon 
+  - npm i cors
+
+2. Установим React(ssr) Babel
+  - npm i @babel/core @babel/preset-env @babel/preset-react @babel/register react react-dom
+  - touch .babelrc
+    {
+      "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+      ]
+    }
+    "dev": "nodemon app.js --ext js,jsx"
+3. env
+  - npm i dotenv  
+  - touch .env
+    require('dotenv').config(); в app.js
+    #DATABASE_URL=postgres://evgeniya:123@localhost:5432/название
+
+4. Установка sequelize
+  - npm i sequelize sequelize-cli pg pg-hstore
+    touch .sequelizerc
+      require('dotenv').config();
+      const path = require('path');
+      module.exports = {
+        'config': path.resolve('db', 'config', 'database.json'),
+        'models-path': path.resolve('db', 'models'),
+        'seeders-path': path.resolve('db', 'seeders'),
+        'migrations-path': path.resolve('db', 'migrations'),
+      };
+  - npx sequelize init
+    #database.json
+      "development": {
+        "use_env_variable": "DATABASE_URL"
+      },
+  - npx sequelize db:create
+  - npx sequelize model:generate --name Message --attributes text:string
+  - npx sequelize db:migrate
+  Вариант команды для всего зараз:
+"initdb": "npx sequelize db:create\nnpx sequelize-cli db:migrate:undo:all\nnpx sequelize-cli db:migrate\nnpx sequelize-cli db:seed:all\n"
+
+
+5. Установка библиотеки для шифрования 
+- npm i sha256 или bcrypt
+npm i bcryptjs
+
+6. Куки и сессии
+- npm i cookie-parser 
+- npm i express-session
+- npm i session-file-store
+npm i jsonwebtoken
+
+7. Установка WebSocketServer
+  - npm i ws // // пока не стоит
+
+
+npx sequelize model:generate --name Flat --attributes category:string,country:string,city:string,address:string,coordinates:string,type:string,bedsQty:integer,guestsQty:integer,costPerNight:integer,description:text,kitchen:boolean,bathroom:integer,aitConditioning:boolean,heating:boolean,wifi:boolean,pets:boolean,smoking:boolean,parking:text,tv:boolean,hairdryer:boolean,washingMachine:boolean,refrigerator:boolean,stove:boolean,rating:integer
